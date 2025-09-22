@@ -24,6 +24,6 @@ The author is **not responsible for any misuse** of this tool.
 
 ## 🚀 Installation
 ```bash
-git clone https://github.com/username/repo-name.git
+git clone https://github.com/jon000114496/Revo-NuKer.git
 cd repo-name
 python main.py
